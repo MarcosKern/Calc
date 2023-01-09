@@ -1,0 +1,54 @@
+.numpad {
+  display: flex;
+  gap: 4px;
+  justify-content: space-evenly;
+  width: 180px;
+  flex-wrap: wrap;
+}
+
+.operator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 4px;
+  flex: 1;
+}
+
+.padContainer {
+  display: flex;
+  gap: 5px;
+  flex: 2;
+}
+
+.key {
+  width: 30%;
+}
+
+.operatorKey {
+  width: 52px;
+  flex: 1;
+  background-color: #fc8211;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.key,
+.operatorKey {
+  border: none;
+  border-radius: 10px;
+  transition: .1s ease-in-out;
+  font-size: 16px;
+}
+
+.key:hover,
+.operatorKey:hover {
+  cursor: pointer;
+}
+
+.key:active {
+  box-shadow: inset 0px 0px 10px #0005
+}
+
+.operatorKey:enabled:active {
+  box-shadow: inset 0px 0px 10px #c23d0d;
+}

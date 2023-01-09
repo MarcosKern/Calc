@@ -1,0 +1,12 @@
+.screen {
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 230px;
+  border: none;
+  box-shadow: inset 0px 0px 20px #0005
+}
